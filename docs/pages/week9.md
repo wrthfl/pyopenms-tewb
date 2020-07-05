@@ -1,8 +1,10 @@
 # Woche 9
 
 1. Arbeitet eventuelle Rückstände auf:
-    - Änderungen des Experimental Design Widgets:
+    - Änderungen des Experimental Design Widget:
         - Die Spalten lassen sich nun sortieren
+        - Tabelle kann nun gefiltert werden indem man den Suchbegriff im Textfeld
+            eingibt
 
     - Änderungen des XML configuration Widget:
         - Die XML wird vor dem parsen defused (gegen xmlattacks)
