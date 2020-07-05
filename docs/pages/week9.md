@@ -17,3 +17,10 @@
         - Einige andere Refactorings um den Code zu verbessern
             - Aus der Initialisierung wurden einige Methoden extrahiert
             - Das TreeWidget wird nun rekursiv gezeichnet
+            
+    - generelles Aufräumen wie ungenutzte Imports rausschmeissen, ...
+    
+ 2. Bugs
+    - Fraction und Label besitzten derzeit noch ein seltsames Verhalten
+    - Fraction gibt bei Eingabe zweier Parameter immer aus, dass der max-Integer zu klein wäre
+    - XMLs werden noch nicht default als ini gespeichert (.ini muss immer noch manuel hinter den Dateinamen gesetzt werden)
