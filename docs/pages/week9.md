@@ -2,6 +2,7 @@
 
 1. Arbeitet eventuelle Rückstände auf:
     - Änderungen des Experimental Design Widgets:
+        - Die Spalten lassen sich nun sortieren
 
     - Änderungen des XML configuration Widget:
         - Die XML wird vor dem parsen defused (gegen xmlattacks)
