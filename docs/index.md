@@ -23,3 +23,5 @@
 [Woche 7](pages/week7.md)
 
 [Woche 8](pages/week8.md)
+
+[Woche 9](pages/week9.md)
