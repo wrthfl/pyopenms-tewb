@@ -19,6 +19,3 @@
             - Das TreeWidget wird nun rekursiv gezeichnet
             
     - generelles Aufräumen wie ungenutzte Imports rausschmeissen, ...
-    
- 2. noch geplant:
-    - XMLs werden noch nicht default als ini gespeichert (.ini muss immer noch manuel hinter den Dateinamen gesetzt werden)
