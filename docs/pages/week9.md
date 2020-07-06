@@ -20,6 +20,5 @@
             
     - generelles Aufräumen wie ungenutzte Imports rausschmeissen, ...
     
- 2. Bugs
-    - Fraction und Label besitzten derzeit noch ein seltsames Verhalten(der Eintrag in entsprechender Spalte wird nicht überall korrekt gesetzt)
-    - (XMLs werden noch nicht default als ini gespeichert (.ini muss immer noch manuel hinter den Dateinamen gesetzt werden))
+ 2. noch geplant:
+    - XMLs werden noch nicht default als ini gespeichert (.ini muss immer noch manuel hinter den Dateinamen gesetzt werden)
