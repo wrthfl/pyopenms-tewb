@@ -1,9 +1,9 @@
 # Woche 10
 
 1. Arbeitet eventuelle Rückstände auf:
-    - Drag and Drop für die Configview wurde eingefügt
-    - In der Configview sind nun buttons eingefügt worden, die Items zur Itemliste 
-    hinzufügen.
+    - Drag and Drop für die Configview wurde implementiert, jedoch funktioniert das parsen trotz exakt gleichen Pfad nicht
+        - Bug in pyqt oder etree?
+    - Das Verhalten des ConfigView Widgets wurde so verändert, dass nun die Itemlists veränderbar sind und auch Items hinzugefügt werden können mithilfe eines add buttons. Dieser checkt die angegeben restrictions und types für den neuen Wert.
     ![alt text](../Screenshots/AddParameter.png )
 
 2. Neues:
