@@ -1,6 +1,7 @@
 # Woche 11
 
 1. Main App:
+
     - Die App wurde weiter verbessert und es gibt nun mehr optionen in der Menüleiste.
         - Parameter:
             - Threads (default 1), FDR (default 0.3)
@@ -28,12 +29,14 @@
     ![alt text](../Screenshots/mzTab_afterproc.png )
 
 2. mzMLTableWidget:
+
     - Das gegebene BSA_Design.tsv template wurde so verändert dass die letzten 4 zeilen gelöscht wurden (extra columns) um das parsen nicht zu stören
         - Extrafälle wie diese müssen noch beachtet werden
     - Fehler beim laden der Tabelle wurde behoben (indexierung der Tabelle wurde von uns gewählt aber ist nicht vorhanden in den gegebenen .tsv dateien)
     - Kleine refactorings um das arbeiten mit dem Widget zu erleichtern
 
 3. ConfigViewWidget:
+
     - kleine refactorings um das arbeiten mit dem Widget zu erleichtern
 
 
