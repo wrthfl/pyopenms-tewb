@@ -9,16 +9,12 @@
     
     ![alt text](../Screenshots/Main_App.png )
 
-    ![alt text](../Screenshots/Main_App.png )
-
     - Mithilfe von Load wird ein Ordner als projekt geöffnet und der Ordner durchsucht nach benötigten Dateien
         - .tsv als experimental design
         - .ini als configdatei
         - .fasta als referenz datenbank
         - .mzML werden im SpecView als Liste angezeigt und durch auswahl kann ein Spektrum angezeigt werden
     
-    ![alt text](../Screenshots/SpecViewerMultiple.png )
-
     ![alt text](../Screenshots/SpecViewerMultiple.png )
 
     - Save lässt den user die dateien speichern, gewählt wird ein Ordner in dem die beiden wichtigen dateien gespeichert werden (.tsv, .ini)
@@ -29,8 +25,6 @@
         - Das experimental layout dient als referenz welche daten prozessiert werden als input und auch als design
         - Die erzeugte mzTab Datei wird dann in dem mzTabTableWidget angezeigt.
     
-    ![alt text](../Screenshots/mzTab_afterproc.png )
-
     ![alt text](../Screenshots/mzTab_afterproc.png )
 
 2. mzMLTableWidget:
