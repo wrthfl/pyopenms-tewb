@@ -14,7 +14,8 @@
     geben alle benötigten Dateien mit einem Befehl reinzuladen.
         - .tsv als experimental design falls keins vohanden ist wird der Ordner nach mzML Dateien durchsucht
         und diese werden dann in das experimental design reingeladen.
-        - .ini als configdatei
+        - .ini als configdatei, falls keine im directory vorhanden ist wird die default Version zunächst erstellt
+        und dann automatisch in den Tab geladen.
         - .fasta als Referenz Datenbank
         - Falls irgendeine Datei fehlt wird der entsprechende Tab leer gelassen
         - .mzML werden im SpecView als Liste angezeigt und durch auswahl kann ein Spektrum angezeigt werden
