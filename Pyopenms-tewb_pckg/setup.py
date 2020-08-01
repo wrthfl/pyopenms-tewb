@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name = "pyopenms-tewb",
+    name="pyopenms-tewb",
     version="0.0.1",
     author="Sevvalli Thavapalan, Till Englert, Fabian Würth, Philipp Baltik",
     author_email="sevvalli.thavapalan@student.uni-tuebingen.de",
@@ -12,7 +12,9 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/wrthfl/pyopenms-tewb",
-    packages=setuptools.find_packages(),
+    packages=find_packages(include=['documentation', 'src',
+                                    'Pyopenms-tewb_pckg',
+                                    'license.txt', 'README.md']),
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
