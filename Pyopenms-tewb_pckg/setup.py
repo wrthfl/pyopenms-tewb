@@ -12,9 +12,7 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/wrthfl/pyopenms-tewb",
-    packages=find_packages(include=['documentation', 'src',
-                                    'Pyopenms-tewb_pckg',
-                                    'license.txt', 'README.md']),
+    packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
