@@ -50,7 +50,7 @@ class ProteinQuantification(QMainWindow):
         self.view = QTabWidget()
         for wname in widgetlist:
             a = widgetlist[wname][0]
-            setattr(self, widgetlist[wname][1],a )
+            setattr(self, widgetlist[wname][1],a)
             self.view.addTab(a, wname)
 
         self.view.setTabEnabled(5, False)
