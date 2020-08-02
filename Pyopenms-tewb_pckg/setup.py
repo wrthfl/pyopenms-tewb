@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="pyopenms-tewb",
-    version="0.0.1",
+    version="0.0.2",
     author="Sevvalli Thavapalan, Till Englert, Fabian Wurth, Philipp Baltik",
     author_email="sevvalli.thavapalan@student.uni-tuebingen.de",
     description="Package for pyopenms-tewb",
