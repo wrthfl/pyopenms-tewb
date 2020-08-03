@@ -251,12 +251,16 @@ class ProteinQuantification(QMainWindow):
         based on the ProteomicsLFQ command of OpenMS
         """
         self.view.setTabEnabled(5, True)
-        self.saveFunction()
+        #self.saveFunction()
+        dlg = QFileDialog(self)
+        filePath = dlg.getExistingDirectory()
+        
         self.procdone = False
         outfileprefix, ok = QInputDialog.getText(self,
                                                  "Prefix for outputfiles",
                                                  "Please specify a prefix " +
                                                  "for the outputfiles")
+        outfileprefix = filePath + '/'+ outfileprefix
         if ok:
             
             projectfolder = self.loaded_dir
