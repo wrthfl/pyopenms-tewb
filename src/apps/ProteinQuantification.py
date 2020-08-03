@@ -53,7 +53,7 @@ class ProteinQuantification(QMainWindow):
             setattr(self, widgetlist[wname][1],a)
             self.view.addTab(a, wname)
 
-        self.view.setTabEnabled(5, False)
+        #self.view.setTabEnabled(5, False)
 
         self.palette = QPalette()
 
@@ -309,7 +309,7 @@ class ProteinQuantification(QMainWindow):
                                   "performed and outputfiles saved to " +
                                   "projectfolder")
                 mztabfile = outfileprefix + ".mzTab.tmp"
-                print(mztabfile)
+                #print(mztabfile)
                 try:
                     self.xview.readFile(mztabfile)
                     self.loaded_mztab = mztabfile
@@ -614,7 +614,14 @@ class ProteinQuantification(QMainWindow):
                     self.sview.sview.openFileDialog(filepath)
                 else:
                     self.displayDragNDropError(filetype)
-        else:
+            elif self.view.currentIndex() == 5:
+                filetype = "mzTab"
+                filepath = self.urlHandler(urls[0].path())
+                if filepath[-5:] == filetype:
+                    self.xview.readFile(filepath)
+                else:
+                    self.displayDragNDropError(filetype)
+        else: 
             e.ignore()
     def displayDragNDropError(self, filetype:str, mul:list=[]):
         """ 
